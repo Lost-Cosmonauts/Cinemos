@@ -2,6 +2,7 @@
 
 #include "CinemosBlueprintFunctionLibrary.h"
 
+#include "Engine/DataTable.h"
 #include "Tracks/MovieSceneSubTrack.h"
 
 #include UE_INLINE_GENERATED_CPP_BY_NAME(CinemosBlueprintFunctionLibrary)
