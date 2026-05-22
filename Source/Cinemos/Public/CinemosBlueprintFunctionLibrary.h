@@ -36,4 +36,7 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Map")
 	static bool IsPartsMapEqual(TMap<FName, bool> A, TMap<FName, bool> B);
+
+	UFUNCTION(BlueprintCallable, Category = "Editor Scripting | Cleanup")
+	static void BakeChildActorsIntoAsset(AActor* SelectedLevelActor);
 };
